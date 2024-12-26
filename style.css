@@ -24,7 +24,7 @@ a:hover{
     text-decoration: underline;
 }
 
-/* Header */
+/* --------------- HEADER --------------- */
 
 header{
     position: relative;
@@ -76,7 +76,7 @@ header{
     scale: 0.95;
 }
 
-/* Dropdown */
+/* --------------- DROPDOWN --------------- */
 
 .dropdown-menu{
     display: none;
@@ -104,12 +104,12 @@ header{
 }
 
 .dropdown-menu .action-btn{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
 }
 
-/* HERO */
+/* --------------- HERO --------------- */
 
 section#hero{
     height: calc(100vh - 60px);
@@ -126,7 +126,7 @@ section#hero{
     margin-bottom: 1rem;
 }
 
-/* Responsive */
+/* --------------- RESPONSIVE --------------- */
 
 @media(max-width: 992px){
     .navbar .links, .navbar .action-btn{
