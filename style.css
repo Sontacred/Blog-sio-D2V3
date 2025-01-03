@@ -141,9 +141,9 @@ section.hero-article{
     justify-content: space-between;
     text-align: justify;
     margin: 20px 0px;
-    padding: 20px;
+    padding: 10px;
     width: 1200px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .article img{
@@ -194,6 +194,8 @@ section.hero-article{
 
     .article{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 100%;
     }
 
@@ -213,6 +215,7 @@ section.hero-article{
     .article img{
         width: 100%;
         margin-bottom: 20px;
+        margin-right: 0;
         height: 150px;
     }
 }
